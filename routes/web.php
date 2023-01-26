@@ -24,6 +24,7 @@ Route::group(['middleware' => 'auth'],  function(){
         Route::get('/', 'App\Http\Controllers\HomeController@index')->name('home');
         Route::get('/profile', 'App\Http\Controllers\ProfileController@index')->name('profile');
         Route::resource('users', 'App\Http\Controllers\UserController');
+        Route::get('/lihatpengaduan', 'App\Http\Controllers\HomeController@lihatpengaduan');
     });
 
 });

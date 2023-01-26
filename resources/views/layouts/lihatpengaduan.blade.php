@@ -6,11 +6,8 @@
             <div class="page-inner py-5">
                 <div class="d-flex align-items-left align-items-md-center flex-column flex-md-row">
                     <div>
-                        <h2 class="text-white pb-2 fw-bold">Halaman Lihat Pengaduan</h2>
-                        <h5 class="text-white op-7 mb-2">Segera proses pengaduan yang tertera dibawah ini secepatnya.
-                            Jangan lupa koordinasikan dengan pihak yang bersangkutan terkait pengaduan yang membutuhkan
-                            beberapa pihak
-                        </h5>
+                        <h2 class="text-white pb-2 fw-bold">Pengguna</h2>
+                        <h5 class="text-white op-7 mb-2">Manage data users</h5>
                     </div>
                     <div class="ml-md-auto py-2 py-md-0">
                         <a href="{{ route('users.create') }}" class="btn btn-primary btn-round"> <span class="btn-label"><i class="fas fa-plus"></i></span> Add new users</a>
